@@ -53,7 +53,9 @@ This project blends the power of **AI, Blockchain, Cybersecurity, and Cloud** co
 
 **Vikas Kumar**
 🎓 B.Tech (IT) | 💻 Sheryians Coding School – Cohort 2.0
+
 🌐 [LinkedIn](https://www.linkedin.com/in/vikas0905)
+
 📂 [GitHub](https://github.com/vikaskumar098)
 
 ---
