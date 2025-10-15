@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  display: grid;
+  background-image: url(https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1374);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  grid-template-columns: 35% 1fr 1fr 1fr;
+  grid-template-rows: 60% 1fr;
+  grid-template-areas: "img1 img2 img2 img2" "img1 img3 img4 img5";
+  gap: 9px;
+  overflow: hidden;
+}
+.main #img1 {
+  grid-area: img1;
+  border-radius: 18px;
+  background-image: url(https://images.unsplash.com/photo-1759078634243-1d5325f49477?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  transition: all ease 0.5s;
+}
+.main #img1:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.main #img2 {
+  grid-area: img2;
+  border-radius: 18px;
+  background-image: url(https://plus.unsplash.com/premium_photo-1683121718643-fb18d2668d53?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1632);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+.main #img2:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.main #img2:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.main #img3 {
+  grid-area: img3;
+  border-radius: 18px;
+  background-image: url(https://plus.unsplash.com/premium_photo-1700476854144-25da28c4ee9e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1374);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  transition: all ease 0.5s;
+}
+.main #img3:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.main #img4 {
+  grid-area: img4;
+  border-radius: 18px;
+  background-image: url(https://plus.unsplash.com/premium_photo-1754322757739-8f86d56515d2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1595);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  transition: all ease 0.5s;
+}
+.main #img4:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.main #img5 {
+  grid-area: img5;
+  border-radius: 18px;
+  background-image: url(https://images.unsplash.com/photo-1667372283545-1261fb5c427a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1632);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  transition: all ease 0.5s;
+}
+.main #img5:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
